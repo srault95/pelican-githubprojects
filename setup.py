@@ -18,6 +18,7 @@ setup(name='pelican_vimeo',
       platforms=['linux'],
       install_requires=[
           'pelican',
+          'requests'
       ],
       packages=find_packages(exclude=["*.tests"]),
       package_data={'': ['LICENSE', ]},
